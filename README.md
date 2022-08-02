@@ -7,6 +7,12 @@
   A simple landing page for your docker's containers.
 </p>
 
+## Pull from Docker Hub
+
+```shell
+docker run -p 80:80 -d --restart always kylianmallet/docker-landing
+```
+
 
 ## Build Process
 - Build the docker image
